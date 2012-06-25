@@ -12,5 +12,5 @@ with open(input_file_name) as input_file:
                 word_count[word] = word_count[word] + 1
             else:
                 word_count[word] = 1
-print word_count
-
+for word, count in word_count.iteritems():
+    print '{0}: {1}'.format(word, count)
