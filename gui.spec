@@ -11,8 +11,8 @@ exe = EXE(
     a.binaries,
     a.zipfiles,
     a.datas,
-    name=os.path.join('dist', 'gui'),
+    name=os.path.join('dist', 'gui.exe'),
     debug=False,
     strip=None,
     upx=True,
-    console=True)
+    console=False)
